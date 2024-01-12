@@ -34,3 +34,8 @@
 # DS Store
 *.DS_Store
 .DS_Store
+
+# No extension files
+*
+!/**/
+!*.*
