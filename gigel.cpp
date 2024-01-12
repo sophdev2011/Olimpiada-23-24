@@ -60,7 +60,7 @@ int main()
 
         if(rest_sir>0)
         {
-            cout << "La final vor mai incapea doar = " << rest_sir << " din ultimul sir!" endl;
+            cout << "La final vor mai incapea doar = " << rest_sir << " din ultimul sir!";
             if (rest_sir>=a) counta = counta+a;
             else counta=counta+(a-rest_sir);
 
