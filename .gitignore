@@ -7,6 +7,17 @@
 *.o
 *.obj
 
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+### Above combination will ignore all files without extension ###
+
 # Precompiled Headers
 *.gch
 *.pch
@@ -34,8 +45,3 @@
 # DS Store
 *.DS_Store
 .DS_Store
-
-# No extension files
-*
-!/**/
-!*.*
